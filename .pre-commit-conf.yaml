@@ -1,11 +1,18 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
     hooks:
       - id: trailing-whitespace
+        files: ^/home/vineeth/Downloads/tools_api
       - id: end-of-file-fixer
+        files: ^/home/vineeth/Downloads/tools_api
       - id: check-yaml
+        files: ^/home/vineeth/Downloads/tools_api
       - id: debug-statements
+        files: ^/home/vineeth/Downloads/tools_api
       - id: check-docstring-first
+        files: ^/home/vineeth/Downloads/tools_api
       - id: check-added-large-files
+        files: ^/home/vineeth/Downloads/tools_api
       - id: check-json
-
+        files: ^/home/vineeth/Downloads/tools_api
