@@ -3,16 +3,16 @@ repos:
 
     hooks:
       - id: trailing-whitespace
-        files: ^/home/vineeth/Downloads/tools_api/conftest.py
+        files: ^/home/vineeth/Downloads/tools_api/.py$
       - id: end-of-file-fixer
-        files: ^/home/vineeth/Downloads/tools_api/conftest.py
+        files: ^/home/vineeth/Downloads/tools_api/.py$
       - id: check-yaml
         files: ^/home/vineeth/Downloads/tools_api
       - id: debug-statements
-        files: ^/home/vineeth/Downloads/tools_api/conftest.py
+        files: ^/home/vineeth/Downloads/tools_api/.py$
       - id: check-docstring-first
-        files: ^/home/vineeth/Downloads/tools_api/conftest.py
+        files: ^/home/vineeth/Downloads/tools_api/.py$
       - id: check-added-large-files
-        files: ^/home/vineeth/Downloads/tools_api/conftest.py
+        files: ^/home/vineeth/Downloads/tools_api/.py$
       - id: check-json
         files: ^/home/vineeth/Downloads/tools_api
