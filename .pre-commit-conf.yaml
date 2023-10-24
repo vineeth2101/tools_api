@@ -1,9 +1,9 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v1.0.0
     hooks:
       - id: trailing-whitespace
-        files: ^/home/vineeth/Downloads/tools_api
+        files: ^/home/Downloads/tools_api
       - id: end-of-file-fixer
         files: ^/home/vineeth/Downloads/tools_api
       - id: check-yaml
