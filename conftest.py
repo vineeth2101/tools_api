@@ -5,6 +5,7 @@ import allure
 # Initialize the data_dict fixture to manage request data
 request_data_dict = {"headers": {}, "params": {}, "cookies": {}}
 
+
 def pytest_bdd_before_scenario(request, feature, scenario):
     # Clear headers, params, and cookies before each scenario
 
@@ -19,6 +20,6 @@ def pytest_bdd_after_scenario(request, feature, scenario):
 
 @pytest.fixture(scope="function", autouse=True)
 def data_dict():
-    return request_data_dict
+    return request_data_dict                                 
 
     
